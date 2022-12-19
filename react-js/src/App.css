@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+svg {
+  z-index: -1;
+}
+
+.svg-wrapper {
+  position: relative;
+  height: 80vh;
+  width: 80vw;
+  overflow: scroll;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 5rem;
+}
+.map-controller {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  right: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.select {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+
+  background-color: white;
+}
