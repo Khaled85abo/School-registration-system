@@ -76,9 +76,12 @@ export default ClassForm;
 
 const CheckboxDiv = styled.div`
   display: flex;
-  justify-content: center;
+  align-items: center;
+  //   justify-content: center;
   margin-top: 0.5rem;
   input {
     margin-left: 1rem;
+    height: 1.3rem;
+    width: 1.3rem;
   }
 `;

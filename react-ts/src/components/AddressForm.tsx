@@ -15,7 +15,7 @@ const AddressForm = ({
   local,
   updateFields,
 }: AddressFormProps) => {
-  if (local === true) {
+  if (local) {
     return (
       <Wrapper>
         <h2>Sweden</h2>
@@ -24,7 +24,7 @@ const AddressForm = ({
     );
   }
 
-  if (local === false) {
+  if (!local) {
     return (
       <Wrapper>
         <h2>World</h2>
